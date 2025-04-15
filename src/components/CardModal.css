@@ -1,0 +1,53 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .modal-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .modal-content button {
+    margin-top: 15px;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .modal-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #333;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+  }
+  .modal-content p {
+    margin: 6px 0;
+    font-size: 14px;
+    line-height: 1.4;
+    border-bottom: 1px solid #eee; /* 👈 oddělovač */
+    padding-bottom: 4px;
+  }
+  

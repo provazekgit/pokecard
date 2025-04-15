@@ -1,0 +1,14 @@
+src/
+├── App.js
+├── App.css
+├── index.js
+└── components/
+    ├── Card.js
+    ├── Card.css
+    ├── CardList.js
+    ├── CardList.css
+    ├── Pagination.js
+    └── Pagination.css
+
+└── utils/
+    ├── translations.js
